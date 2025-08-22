@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button style="width: 150px;">Apple</button>
+    <button style="width: 150px;">Mango</button>
+    <button style="width: 150px;">Banana</button>
+    <button style="width: 150px;">Grapes</button> -->
+
+    <button style="width: 150px; height: 100px;">Red</button>
+    <button style="width: 150px; height: 100px;">Blue</button>
+    <button style="width: 150px; height: 100px;">Green</button>
+
+    <script>
+        // let apple = document.getElementsByTagName("button")[0];
+        // let mango = document.getElementsByTagName("button")[1];
+        // let banana = document.getElementsByTagName("button")[2];
+        // let grapes = document.getElementsByTagName("button")[3];
+
+        // apple.addEventListener("click", ()=>{
+        //     console.log("you clicked Apple button");
+        // })
+         
+        // mango.addEventListener("click", ()=>{
+        //     console.log("you clicked Mango button");
+        // })
+         
+        // banana.addEventListener("click", ()=>{
+        //     console.log("you clicked banana button");
+        // })
+
+        // grapes.addEventListener("click", ()=>{
+        //     console.log("you clicked grapes button");
+        // })
+
+        let red = document.getElementsByTagName("button")[0];
+        let blue = document.getElementsByTagName("button")[1];
+        let green = document.getElementsByTagName("button")[2];
+
+        red.addEventListener("click", ()=>{
+            // red.style.backgroundColor="red";
+            let body = document.getElementsByTagName("body")[0];
+            body.style.backgroundColor="red";
+        })
+
+        blue.addEventListener("click", ()=>{
+            // blue.style.backgroundColor="blue";
+            document.body.style.backgroundColor="blue";
+        })
+
+        green.addEventListener("click", ()=>{
+            // green.style.backgroundColor="green";
+            document.body.style.backgroundColor="green";
+        })
+
+    </script>
+
+</body>
+</html>
